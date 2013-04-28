@@ -1,0 +1,20 @@
+From: 
+http://developer.coronalabs.com/forum/2011/12/16/handy-code-snippets#comment-126283
+
+Many more awesome pieces of code too
+
+---------------- THE CODE 
+---------------- THE CODE 
+---------------- THE CODE 
+
+local function globalWatch(g, key, value)
+    print("GlobalWatch --- ", tostring(key) .. " has been added to _G\n" .. debug.traceback())
+    rawset(g, key, value)
+end
+setmetatable(_G, { __index = globalWatch })
+
+---------------- USAGE/SAMPLES
+---------------- USAGE/SAMPLES
+---------------- USAGE/SAMPLES
+
+-- EFM

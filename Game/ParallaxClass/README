@@ -1,0 +1,78 @@
+====================================================================      
+ PARALLAX CLASS
+====================================================================
+
+ Version: 0.7
+ Made by Griffin Adams ( theIdeaMen ) 2011-2012
+ Twitter: http://www.twitter.com/theIdeaMen
+ eMail: duff333@gmail.com
+
+  MIT License
+ You can use and change this code free of purgery or death as long
+  as you promise to have fun or something along those lines.
+
+ Thanks to Brent Sorrentino for a great parallax demo, the
+  the starting point from witch this class was born.
+
+ Feedback welcome!
+
+====================================================================        
+ CHANGES
+====================================================================
+
+ 02-05-2012 - Griffin Adams - Major update/rewrite
+                            - see 'Old' branch for previous history
+
+====================================================================
+ INFORMATION
+====================================================================
+
+
+ * Import the class like this:
+
+   parallax = require( "parallax" )
+
+
+ * To create a new scene
+
+   yourScene = parallax.newScene(
+		{
+			width = [X SCENE SIZE],
+			height = [Y SCENE SIZE],
+			left = [SCENE X BEGINNING POS],
+			top = [SCENE Y BEGINNING POS],
+			[repeated = [REPEAT FOREVER, "horizontal","vertical","both"]
+		} )
+
+
+ * To add a new layer to the scene
+
+   yourScene:newLayer(
+		{
+			image = [IMAGE NAME],
+			width = [IMAGE WIDTH],
+			height = [IMAGE HEIGHT],
+			[top = [IMAGE Y POS],]
+            [bottom = [IMAGE Y POS],]
+			left = [IMAGE X POS],
+			speed = [HOW FAST, 0 - 1 for backgrounds, > 1 for foregrounds],
+			[repeated = [INF SCROLL, "horizontal","vertical","both"]]
+		} )
+
+ NOTE: Create your layers in order from closest to farthest away
+ NOTE: All x/y coordinates should be in relation to the screen (not local)
+
+
+ * To add objects to a layer
+
+   yourScene:insertObj( object, [layer] )
+
+ NOTE: If no layer specified, defaults to the top layer
+ 
+
+
+ * To move a scene
+
+   yourScene:move( deltaX, deltaY )
+
+====================================================================
