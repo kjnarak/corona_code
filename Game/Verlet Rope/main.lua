@@ -141,7 +141,7 @@ local function setupBezier(granularity,r,g,b)
  
         -- DONT DRAW HANDLES TO MAINTAIN ROPE ILLUSION
         -- 1st draw anchor points and handles
-        --drawBezierHandles();
+        drawBezierHandles();
  
         -- 2nd setupBezierSegment
         setupBezierSegment(granularity);
