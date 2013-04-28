@@ -1,0 +1,20 @@
+
+ABOUT THE CORONA SDK SAMPLE CODE
+
+
+These samples have been adapted for cross-platform deployment in the following ways:
+
+* Automatic content scaling for multiple screen dimensions, using an optional config.lua file with either "letterbox" or "zoomEven" scaling modes specified.
+
+* Sound files in both .caf and .mp3 formats, which are the preferred event sound formats for iOS and Android, respectively.
+
+* Android device permissions added to build.settings where appropriate (for example, Android requires specific permissions for GPS, Internet access, or using the camera).
+
+In production software, you may want to use higher-resolution assets for the iPad and other large-screen devices, but sharing assets between the iPhone and Android phones generally works well.
+
+Note that OpenFeint is currently only available on iOS, so these samples will not work on Android or the Corona Simulator.
+
+For more information on config.lua and build.settings files, and how to deploy your Corona content to multiple devices, see the "Configuring Projects" section in the Corona API Reference: http://www.coronalabs.com/links/content/configuring-projects
+
+
+All sample code is offered under the open-source MIT License, the same license used by the Lua language itself. See http://www.coronalabs.com/links/code/license for the full text.

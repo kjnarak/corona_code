@@ -1,0 +1,33 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	android =
+	{
+		usesPermissions =
+		{
+			-- Permission to access the GPS.
+			"android.permission.ACCESS_FINE_LOCATION",
+
+			-- Permission to retrieve current location from WiFi or cellular service.
+			"android.permission.ACCESS_COARSE_LOCATION",
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

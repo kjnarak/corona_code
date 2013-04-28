@@ -1,0 +1,35 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	android =
+	{
+		usesPermissions =
+		{
+			"android.permission.CAMERA",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
+		},
+		usesFeatures =
+		{
+			{ name = "android.hardware.camera", required = true },
+			{ name = "android.hardware.camera.front", required = false },
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

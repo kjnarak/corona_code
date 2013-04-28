@@ -1,0 +1,24 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	iphone =
+	{
+		plist =
+		{
+			UIStatusBarHidden = false,
+			UIPrerenderedIcon = true, -- set to false for "shine" overlay
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

@@ -1,0 +1,37 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	android =
+	{
+		permissions =
+		{
+			{ name = ".permission.C2D_MESSAGE", protectionLevel = "signature" },
+		},
+		usesPermissions =
+		{
+			"android.permission.INTERNET",
+			"android.permission.GET_ACCOUNTS",
+			"android.permission.RECEIVE_BOOT_COMPLETED",
+			"com.google.android.c2dm.permission.RECEIVE",
+			".permission.C2D_MESSAGE",
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

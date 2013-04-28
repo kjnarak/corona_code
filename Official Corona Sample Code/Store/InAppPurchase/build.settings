@@ -1,0 +1,30 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeRight",
+		supported = { "landscapeRight" }
+	},
+	android =
+	{
+		usesPermissions =
+		{
+			"com.android.vending.BILLING",
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+			UIStatusBarHidden = true,
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

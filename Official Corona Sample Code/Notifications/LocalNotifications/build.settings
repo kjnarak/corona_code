@@ -1,0 +1,31 @@
+settings = 
+{
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	android =
+	{
+		usesPermissions =
+		{
+			-- This permission starts this app in the background after the device boots up.
+			-- It is needed to display and reschedule all pending notifications after boot up.
+			"android.permission.RECEIVE_BOOT_COMPLETED",
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		},
+	},
+}

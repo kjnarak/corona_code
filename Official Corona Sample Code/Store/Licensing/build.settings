@@ -1,0 +1,28 @@
+settings =
+{
+        orientation =
+        {
+                default = "portrait",
+				supported = { "portrait" }
+        },
+        android =
+		{
+			usesPermissions =
+			{
+				"android.permission.INTERNET",
+				"com.android.vending.CHECK_LICENSE"
+			},
+		},
+		iphone =
+		{
+			plist =
+			{
+		        CFBundleIconFile = "Icon.png",
+		        CFBundleIconFiles = {
+		           "Icon.png", 
+		           "Icon@2x.png", 
+		           "Icon-72.png", 
+		        },
+			},
+		}
+}
