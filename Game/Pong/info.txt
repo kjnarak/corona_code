@@ -1,0 +1,35 @@
+-----------------------------
+Project: NeonPong
+Author: Caleb Place
+
+NeonPong is a complete, finished remake of Pong. It is very simple to learn to play, even simpler to understand the (heavily) commented code, yet actually quite fun.
+
+
+You move your paddle around (touch/click inside of the faint yellowish box) and hit the ball when it comes to you. That's it.
+
+
+It has four different levels - Easy, Medium, Hard, and Endless:
+
+In the Easy level, you have a long paddle, the ball goes slowly, and the CPU is extremely slow.
+
+In the Medium level, you are shorter, the ball goes faster, and the CPU is less slow.
+
+In the Hard level, the ball goes quite fast, the CPU is quite smart, and you are quite small.
+
+And, finally, in the Endless level, it's somewhere between the Medium level and the Hard level and there is (basically) no point limit.
+
+
+Each time the ball hits the CPU's paddle, it gains a little bit of speed. You can beat the CPU before the ball gets too fast by "slamming" the ball - slide your paddle down quickly while hitting it. If the velocity goes above a certain amount, you'll get a "Nice Shot!" notice with the ball's velocity underneath it.
+
+
+NeonPong does not use physics at all - instead it uses an extremely simplified version of the ParticlePhysics that I wrote for CBEffects (I edited it to only add a single physics object, no damping, angularVelocity, etc). Each time it hits a paddle, it's X velocity reverses. That's it.
+
+
+All the graphics were created by me and Sketch - you can use them, change them, etc. :)
+
+I'd like to thank Danny for the SceneManager resource.
+
+Anything else, I made.
+
+Enjoy!
+-----------------------------

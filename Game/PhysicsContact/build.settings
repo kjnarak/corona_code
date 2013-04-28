@@ -1,0 +1,28 @@
+settings =
+{
+	android =
+	{
+		versionCode = "1",
+	},
+
+	androidPermissions =
+	{
+		"android.permission.ACCESS_FINE_LOCATION"
+	},
+
+	orientation = {
+		default = "portrait", 
+		supported = { "portrait", },
+		-- supported = { "landscapeLeft", "landscapeRight" },
+		-- supported = { "landscapeLeft", "landscapeRight", "portrait", "portraitUpsideDown", },
+	},
+
+	iphone =
+	{
+		plist =
+		{
+			UIAppFonts = { "Hackberry - ContenuBook-Display.otf" },
+			-- UIApplicationExitsOnSuspend = true, -- default is false
+		},
+	}
+}

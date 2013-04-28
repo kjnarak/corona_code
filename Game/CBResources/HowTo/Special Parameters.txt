@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------------
+CBEffects Deprecated, Removed, or Problem Parameters
+--------------------------------------------------------------------------------------
+
+scale
+	Type: Problem
+	Status: Incomplete
+	Reason: Various issues
+
+physics.density
+	Type: Deprecated
+	Status: Soon to be removed
+	Reason: Inconsistent results when using it
+
+physics.relativeToSize
+	Type: Deprecated
+	Status: Soon to be removed.
+	Reason: Inconsistent results when using it

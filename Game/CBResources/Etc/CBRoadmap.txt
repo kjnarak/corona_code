@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------------
+CBEffects Roadmap
+--------------------------------------------------------------------------------------
+
+Things I'll add sometime in the future, wishlist, and possible thoughts.
+
+Things I'll Add Sometime in the Future:
+	- More realistic ParticlePhysics
+	- Smaller file size (merge ParticleHelper.lua and Library.lua - chief problem is the textures for presets)
+	- Memory usage upgrade
+
+Wishlist:
+	- Reuse particles for vents with few particles on-screen
+
+Possible Thoughts:
+	- "Translation" function for users migrating from PC
+	- Grid-based effects for retro programmers (particles don't move freely; instead clamped to grid)
+
+Please feel free to ask feature requests on the CBEffects code share page or forum page @CoronaLabs.com
+
+- Caleb | Gymbyl Coding
+--------------------------------------------------------------------------------------

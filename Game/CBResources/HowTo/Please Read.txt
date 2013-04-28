@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------------
+Manual and Guide Info
+--------------------------------------------------------------------------------------
+
+This folder contains the reference files for using CBEffects.
+
+CBReference.txt -
+Contains all parameters possible for CBObjects of both types.
+
+CBReadme.pdf -
+The complete instructions for CBEffects.
+
+
+I worked very hard on both of them (especially the CBReadme), but if you find an error, please notify me. Thanks!
+
+- Caleb | Gymbyl Coding
+--------------------------------------------------------------------------------------
